@@ -1,0 +1,9 @@
+{   
+	"name": "SBCL Base Image",
+	"image": "mcr.microsoft.com/devcontainers/base:debian-12",
+    "features": {
+        "ghcr.io/symbolics/devcontainer-features/sbcl:latest": {"make_slim": false},
+        "ghcr.io/symbolics/devcontainer-features/quicklisp:latest": {"make_slim": false},
+        "ghcr.io/symbolics/devcontainer-features/aclrepl:latest": {"make_slim": false}
+    }
+}
